@@ -47,9 +47,9 @@ const moveChosen = ref<Move>();
 const opponentMove = ref();
 
 const moves = [
-  { img: "/assets/rock.png", move: Move.Rock },
-  { img: "/assets/paper.png", move: Move.Paper },
-  { img: "/assets/scissors.png", move: Move.Scissors },
+  { img: "./assets/rock.png", move: Move.Rock },
+  { img: "./assets/paper.png", move: Move.Paper },
+  { img: "./assets/scissors.png", move: Move.Scissors },
 ];
 
 function chooseMove(move: Move) {
